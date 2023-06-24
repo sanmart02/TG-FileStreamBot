@@ -58,5 +58,5 @@ class Var(object):
 
     USE_SESSION_FILE = str(environ.get("USE_SESSION_FILE", "0").lower()) in ("1", "true", "t", "yes", "y")
 
-    ALLOWED_USERS = "falobrasiliano"
+    ALLOWED_USERS = "5663539940, 6069809284"
 
