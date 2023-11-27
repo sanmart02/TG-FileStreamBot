@@ -41,7 +41,8 @@ async def media_receive_handler(_, m: Message):
             quote=True,
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("💻 NAVEGADOR", url=short_link) InlineKeyboardButton("PLAYER", url=stream_link)]]
+                [[InlineKeyboardButton("💻 NAVEGADOR", url=short_link) 
+                  InlineKeyboardButton("PLAYER", url=stream_link)]]
             ),
         )
     except errors.ButtonUrlInvalid:
