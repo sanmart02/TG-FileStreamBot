@@ -44,7 +44,7 @@ class Var(object):
 
         sys.exit("Hash length should be greater than 5 and less than 64")
 
-    FQDN = "corresponding-jo-edicarlosmartins954.koyeb.app"
+    FQDN = "app-assistirvideos.koyeb.app"
 
     URL = "http{}://{}{}/".format(
 
