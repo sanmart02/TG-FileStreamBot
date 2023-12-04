@@ -12,7 +12,7 @@ load_dotenv()
 
 class Var(object):
 
-    MULTI_CLIENT = True
+    MULTI_CLIENT = "true"
 
     API_ID = 27885485
 
