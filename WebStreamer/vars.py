@@ -12,7 +12,7 @@ load_dotenv()
 
 class Var(object):
 
-    MULTI_CLIENT = False
+    MULTI_CLIENT = True
 
     API_ID = 27885485
 
@@ -20,6 +20,8 @@ class Var(object):
 
     BOT_TOKEN = "5814606535:AAHMKvgSMunxFpVqT8cu3icMnkux7H5bFlY"
 
+    MULTI_TOKEN1="5730078829:AAHI7p5RrF-Sh6SbcWi9JzcRhpoqp3nPoUg"
+    
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
 
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
